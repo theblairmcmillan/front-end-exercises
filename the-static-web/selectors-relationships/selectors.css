@@ -1,0 +1,48 @@
+header {
+  border: 1px solid blue;
+}
+
+
+nav header ul li {
+  display: inline;
+  list-style: none;
+  padding: 5%;
+}
+
+.disabled {
+  color: gray;
+}
+
+a.disabled  {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent > div div:first-of-type {
+	color: red;
+}
+
+.parent > div div:last-of-type {
+	color: blue;
+}
+
+.parent > div h4:first-of-type {
+	background-color: red;
+}
+
+.parent > div h4:last-of-type {
+	background-color: blue;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+
+}
+
+footer input {
+	height: 25px;
+}

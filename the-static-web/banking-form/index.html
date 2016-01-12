@@ -1,0 +1,188 @@
+    <!doctype html>
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Loan Application</title>
+      <link rel="stylesheet" href="touch validation.css">
+    </head>
+
+    <body>
+      
+        <header>~Loan Application~</header>
+      
+                                <!--NAME FORM-->  
+
+        <div id="nameInfo">
+            <form action="form.html" method="POST">
+                <fieldset>
+                  <legend><span>Name</span></legend>
+                  <label for="first-name" >First name </label>
+                  <input type="text" name="first-name"><br/>
+                  <label for="middle-initial">Initial</label>
+                  <input type="text" name="middle-initial"><br/>
+                  <label for="last-name">Last name </label>
+                  <input type="text" name="last-name">
+                </fieldset>
+           </form>
+        </div>
+
+                                <!--ADDRESS FORM-->
+
+        <div id="addressInfo">
+            <form action="form.html" method="POST">
+                <fieldset>
+                    <legend>Address</legend>
+                    <label for="Number" >Number</label>
+                    <input type="text" name="number"><br/>
+                    <label for="Street">Street</label>
+                    <input type="text" name="street"><br/>
+                    <label for="City">City</label>
+                    <input type="text" name="city"><br/>
+                    <label for="State">State</label>
+                    <input type="text" name="city">
+                </fieldset>
+            </form>
+        </div>
+
+                                          <!--OCCUPATION FORM-->
+
+        <div id="occupation">
+            <form action="form.html" method="post">
+              <fieldset>
+                <legend>Occupation</legend>
+                <label for="occupation">Occupation</label>
+                <input type="text" name="occupation">
+              </fieldset>
+            </form>
+        </div>
+
+                                         <!--EMPLOYER-->
+
+
+        <div id="employer">
+            <form action="form.html" method="post">
+              <fieldset>
+                <legend>Employer</legend>
+                <label for="employer">Current employer</label>
+                <input type="text" name="employer">
+              </fieldset>
+            </form>
+        </div>
+
+
+                                        <!--EMPLOYER ADDRESS-->
+
+        <div id="employeraddress">
+            <form action="form.html" method="POST">
+                <fieldset>
+                    <legend>Employer address</legend>
+                    <label for="Number" >Number</label>
+                    <input type="text" name="number"><br/>
+                    <label for="Street">Street</label>
+                    <input type="text" name="street"><br/>
+                    <label for="City">City</label>
+                    <input type="text" name="city"><br/>
+                    <label for="State">State</label>
+                    <input type="text" name="city">
+                </fieldset>
+            </form>
+        </div>
+
+                                      <!--LOAN TYPE-->
+
+        <div id="loanType">
+            <label for="loan-type">Loan type</label>
+            <select id="loan-type" name="type">
+                <option>Commercial</option>
+                <option>Real Estate</option>
+                <option>Personal</option>
+                <option>Mortgage</option>
+            </select>
+        </div>
+
+                                     <!--LOAN AMOUNT-->
+     
+        <div id="loanammount">
+            <form action="form.html" method="post">
+                <fieldset>
+                    <legend>Loan ammount</legend>
+                    <label for="loan amount">$</label>
+                    <input type="text" name="loan amount" pattern="[1-9]{1,}" required>
+                </fieldset>
+            </form>
+        </div>
+
+                                    <!--LOAN LENGTH RADIO BUTTONS-->
+
+        <div id="loanlength">
+            <fieldset>
+                <legend>Loan length</legend>
+                <input type="radio" name="loan-length" value="5 years"> 5 Years
+                <input type="radio" name="loan-length" value="15 years">15 Years
+                <input type="radio" name="loan-length" value="30 years">30 Years
+            </fieldset>
+        </div>
+
+                                    <!--SPECIAL CONDITIONS -->
+
+        <div id="specialconditions">
+            <fieldset>
+                <legend>Special conditions</legend>
+                <input type="checkbox" name="special-conditions" value="I have a downpayment"> I have a downn payment
+                <input type="checkbox" name="special-conditions" value="I live out-of-state"> I live out of state
+                <input type="checkbox" name="special-conditions" value="married"> Married
+                <input type="checkbox" name="special-conditions" value="Loan will be co-signed"> Loan will be co-signed
+            </fieldset>
+        </div>
+
+
+
+                                    <!-- GIVE FEEBACK -->
+
+        <div id="givefeedback">
+            <fieldset>
+                <legend>Give us feedback</legend>
+                <textarea id="comments" name="comments" placeholder="let us know how boring this form is!"></textarea>
+            </fieldset>
+        </div>
+
+                                    <!--EMAIL ADDRESS-->
+
+        <div id="email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="broke@ass.com"/>
+        </div>
+
+
+                                    <!--WEBSITE URL-->
+        <div id="url">
+            <label for="url">LinkIn:</label>
+            <input type="url" id="url" name="url" pattern="https?://.+" title="Include http://" required placeholder="http://"/>
+        </div>
+
+
+                                    <!--TELPHONE NUMBER-->
+
+        <div id="telephone">
+            <form action="#">
+                <label id="telephone">Tel:</label>
+                <input type="text" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx"/>
+            </form>
+        </div>
+
+                                <!--SUBMIT BUTTON-->
+
+        <div id="submit">
+            <form>
+              <input type="submit" value="Submit"></input>
+            </form>
+        </div>
+     
+        <footer>codebank.com</footer>
+
+    </body>
+</html>
+
+
+

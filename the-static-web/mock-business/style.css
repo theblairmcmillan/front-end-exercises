@@ -1,0 +1,137 @@
+/********************
+Common Page Elements
+*********************/
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-image: url("images/skulls.png");
+}
+
+/********************
+NAVBAR
+*********************/
+
+nav {
+	width: 100%;
+	height: 120px;
+	background-color: #2D8662; ;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul {
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 2em;
+	font-family: Futura, serif;
+
+}
+
+/****************************
+HEADERS
+****************************/
+
+h1 {
+	font-size: 2em;
+	font-family: Futura, serif;
+	display: block;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+h2 { 
+   text-align: center;
+   margin-top: 5%;
+  }
+/********************
+FOOTER
+*********************/
+
+
+footer {
+	width: 100%;
+	height: 120px;
+	background-color: #2D8662;
+}
+
+footer p {
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/****************************************************************************************************
+/*****************************
+PAGE ONE STYLING 
+******************************/
+
+dl {
+	margin-left: 43%;
+	margin-bottom: 5%;
+}
+
+#rakes1 img {
+	margin-left: 8%;
+	border-radius: 100px;
+}
+
+p.homepage {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/*******************************
+PAGE TWO STYLING (PRODUCTS)
+*******************************/
+
+.prodimage {
+	height: 450px;
+	width: 450px;
+	margin-left: 35%;
+}
+
+.proddescrip {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.prodlink {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/*******************************
+PAGE THREE STYLING (CULTURE)
+*******************************/
+
+p.culture {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+/*******************************
+PAGE FOUR STYLING (CONTACT)
+*******************************/
+
+#contactInfo p {
+	margin-left: 45%;
+}
+
+
+
+
+
+
+
+
+

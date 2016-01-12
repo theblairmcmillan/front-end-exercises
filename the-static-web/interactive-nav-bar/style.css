@@ -1,0 +1,33 @@
+nav {
+    background-color: navy;
+    height: 50px;
+    width: 100%;
+}
+
+nav ul li {
+	font-family: Futura;
+	display: inline;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#one a:hover {
+	color: orange;
+}
+
+#two:hover {
+	background-color: green;
+}
+
+#three:active {
+	padding-left: 5px;
+	padding-right: 5px;
+}
