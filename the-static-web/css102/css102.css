@@ -1,0 +1,21 @@
+ul li {
+	list-style: none;
+	display: inline;
+}
+
+span { 
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+
+.n-child section:nth-child(2n+1) {
+	border: 1px solid black;
+}
+
+
+.n-child section:first-of-type {
+	border: none;
+}
+
