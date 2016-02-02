@@ -1,0 +1,30 @@
+.bluetext {
+	color: blue;
+}
+
+.bigtext {
+	font-size: 3em;
+}
+
+.border {
+	border: 2px solid orange;
+}
+
+.border-rounded {
+	border: 2px solid orange;
+	border-radius: 6px;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.italicsBold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.buttonBlock {
+	display: block;
+}
