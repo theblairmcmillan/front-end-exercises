@@ -1,0 +1,33 @@
+body {
+	width: 75%;
+}
+
+
+img {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	display: block;
+	margin-left: 45%;
+}
+
+.cards {
+	border: 1px solid black;
+	text-align: center;
+	margin: 10px auto;
+
+}
+
+.card.bio {
+	diplay: block;
+}
+
+.cards:nth-child(even) {
+	background-color: yellow;
+}
+
+.cards:nth-child(odd) {
+	background-color: lightblue;
+}
+
+	
