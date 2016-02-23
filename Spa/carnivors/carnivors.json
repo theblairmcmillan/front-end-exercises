@@ -1,0 +1,12 @@
+{
+	"carnivores": [{
+		"name": "cat",
+		"type": "Feline"
+		}, {
+		"name": "spastic_hawk",
+		"type": "Bird"
+		}, {
+		"name": "max",
+		"type": "Canine"
+	}]
+}
